@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+    background-size: cover;
+    font-size: 1.5rem;
+}
+
+
+.card
+{
+   background-color: #4b4b4bd0;
+   padding: 2em;
+   border-radius: 30px;
+   width: 100%;
+   max-width: 400px;
+   color: whitesmoke;
+}
+.search
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button
+{
+    margin:0.5rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border:none;
+    background-color: gray;
+    color: white;
+}
+
+input.search-bar
+{
+    height: 1.8rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: gray;
+    outline: none;
+    padding: 0 0.8em ;
+    color: white;
+    font-family: inherit;
+    font-size: 110%;
+}
+
+button:hover
+{
+    background-color: darkgray;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.temp
+{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+.climate-details
+{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
